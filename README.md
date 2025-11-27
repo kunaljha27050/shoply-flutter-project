@@ -1,56 +1,42 @@
 # 🛍️ Shoply - E-Commerce UI Prototype
 
-A high-fidelity mobile application prototype built with **Flutter**, designed to demonstrate modern UI/UX principles and efficient state management for the **Application Developer Intern** role.
+**Shoply** is a responsive mobile application prototype built with **Flutter**, designed to demonstrate efficient state management, complex layouts, and modern UI transitions for the **Application Developer Intern** assessment.
+
+---
 
 ## 🚀 Project Overview
 
-**Shoply** simulates a functional e-commerce environment. It moves beyond basic layouts by implementing a responsive grid system, real-time data filtering, and immersive animations to ensure a seamless user experience.
+This project simulates a functional e-commerce environment. It goes beyond basic lists by implementing a robust grid architecture and real-time data handling without external packages.
 
-**Key Features:**
-* **Dynamic Filtering:** Users can filter products by category (Tech, Fashion, Home) instantly without page reloads.
-* **Responsive Grid:** Custom `GridView` implementation that adapts to screen constraints.
-* **Hero Animations:** Smooth, shared-element transitions when moving from the catalog to product details.
-* **State Management:** Efficient handling of ephemeral state for interactive elements like the Cart and Filter Chips.
+### **Key Features**
+* **🛒 Responsive Grid Layout:** Custom `GridView` implementation that adapts to mobile screen constraints.
+* **⚡ Dynamic Filtering:** Real-time sorting logic allows users to filter products by category (Tech, Fashion, Home) instantly.
+* **✨ Hero Animations:** Implemented shared-element transitions for a seamless visual experience when opening product details.
+* **📱 Material Design 3:** Utilizes the latest Material You design specifications for modern aesthetics.
+
+---
 
 ## 🛠️ Tech Stack
 
-* **Framework:** Flutter (3.x)
-* **Language:** Dart
-* **UI Design:** Material Design 3 (Material You)
-* **IDE:** Android Studio / VS Code
+* **Framework:** Flutter (Stable Channel)
+* **Language:** Dart 3.0+
+* **State Management:** Ephemeral State (`setState`)
+* **Architecture:** Component-Based UI
 
-## 📱 Screenshots
+---
 
-| Catalog Grid | Category Filter | Product Details |
-|:---:|:---:|:---:|
-| *(Upload screenshot here)* | *(Upload screenshot here)* | *(Upload screenshot here)* |
+## 📂 Project Structure
 
-*(Note: To run this project, you need the Flutter SDK installed on your machine.)*
+* **`main.dart`**: Contains the full source code for the application, including the Data Model (`Product`), Catalog Screen, and Detail Screen.
+* **`Shoply Mobile Application.pdf`**: A detailed technical report outlining the development process and architectural decisions.
 
-## ⚡ How to Run
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/YOUR-USERNAME/shoply-flutter-project.git](https://github.com/YOUR-USERNAME/shoply-flutter-project.git)
-    ```
-2.  **Navigate to the project folder:**
-    ```bash
-    cd shoply-flutter-project
-    ```
-3.  **Install dependencies:**
-    ```bash
-    flutter pub get
-    ```
-4.  **Run the app:**
-    ```bash
-    flutter run
-    ```
+---
 
 ## 👨‍💻 Developer Info
 
-* **Developer:** [Your Name]
+* **Developer:** Kunal Jha
 * **Role Applied:** Application Developer Intern
-* **Contact:** [Your Email]
+* **Repository:** [shoply-flutter-project](https://github.com/kunaljha27050/shoply-flutter-project)
 
 ---
-*This project was submitted as part of the technical assessment for the Application Developer Internship.*
+*Submitted as part of the technical internship assessment.*
