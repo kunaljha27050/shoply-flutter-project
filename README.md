@@ -29,14 +29,3 @@ This project simulates a functional e-commerce environment. It goes beyond basic
 
 * **`main.dart`**: Contains the full source code for the application, including the Data Model (`Product`), Catalog Screen, and Detail Screen.
 * **`Shoply Mobile Application.pdf`**: A detailed technical report outlining the development process and architectural decisions.
-
----
-
-## 👨‍💻 Developer Info
-
-* **Developer:** Kunal Jha
-* **Role Applied:** Application Developer Intern
-* **Repository:** [shoply-flutter-project](https://github.com/kunaljha27050/shoply-flutter-project)
-
----
-*Submitted as part of the technical internship assessment.*
